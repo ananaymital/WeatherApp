@@ -1,0 +1,35 @@
+.well {
+   padding-bottom: 30%;
+   background-color: #FFFF7A;
+}
+
+.Indie-flower {
+  font-family: 'Indie flower', serif;
+}
+#temperature {
+ width:100%;
+ display: flex;
+ flex-flow: row wrap;
+ justify-content: space-evenly;
+}
+
+#heading {
+  font-size: 600%;
+}
+
+#localWeather {
+  font-size: 450%;
+}
+
+#weather {
+  font-size: 300%;
+}
+
+label {
+  font-size: 150%;
+}
+
+#weatherIcon {
+  background-size: 100%;
+  padding-bottom: 15%;
+}

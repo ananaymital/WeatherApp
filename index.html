@@ -1,0 +1,37 @@
+<!--If you think it isn't working change the url to http://-->
+<html>
+<head>
+<link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="js/script.js"></script>
+<link href="css/style.css" rel="stylesheet">
+<link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+<link href='https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css' rel='stylesheet' type='text/css'>
+</head>
+
+<body class="container-fluid background">
+  <div class="well">
+      <h3 class="text-center" id="localWeather">Local Weather App</h3>
+    <div class="Indie-flower">
+      <div class="text-center" id="weather">
+      </div>
+      <div class="row">
+        <div class="col-xs-4 col-xs-offset-4 text-center">
+          <div id="weatherIcon">
+          </div>
+        </div>
+      </div>
+      <div class="row" id="temperature">
+        <div class="col-xs-4 text-center">
+          <label><input type ="radio" name=" Celsius-Fahrenheit-Kelvin" class=" text-center" id = "Celsius" onclick="getCelsius()"> Celsius
+    </label>
+        </div>
+        <div class="col-xs-4 text-center">
+          <label><input type ="radio" name=" Celsius-Fahrenheit-Kelvin" class=" text-center" id = "Fahrenheit" onclick="getFahrenheit()"> Fahrenheit
+    </label>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
